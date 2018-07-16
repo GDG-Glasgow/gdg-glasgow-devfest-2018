@@ -7,19 +7,24 @@ cache:
   - node_modules
   - "${NVM_PATH}_modules"
 
-branches:
-  only:
-    - maser
-
-before_script:
+install:
 - yarn
 - cd functions && yarn && cd ..
 
 script:
 - yarn lint
 - echo "Building..."
-#- if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi
+- if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi
 - if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi
 
-after_success:
-  - firebase deploy --token=${FIREBASE_TOKEN}
+before_deploy:
+- echo "Deploying!"
+
+deploy:
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: master
+  project: gdg-glasgow-devfest-2018
+  token:
+    secure: Ux3slG58aQkRzl+zF2DTl3/wZQ4NnGlyA+SzepCVomvzuvGEtj5iB8ZnDFJjXqcL75eL6G6m/KNrRbhgvbS60sNM+QyN/+dUla2/db1TjqZVvSYpK1zNg8ktIqQPhLs4DNOUVl9tTo4vPelnXSqo08j+nVz4IzUeFlE2KNWwtsf1lgtHq68DXYr2g93Wwuf9ueT9hR2gffXJ74eaZU7DO9Fd2EK7ONumVXYmdMcgeA3EJo8ZJnU+roz91QzxePQSfHI6nunYYybphfDZb8viaHfFEBzN34SIQIoGooUXAPMbrZCh8DhWZgVN60huxj+l+xlmcJEKX7lyvGv/bWEWStu+OJ3vdo6hTgglj2/9NpQuBAmY5wseTRYWYQb2SL8hhC5x8f7yeKeZLBZNuOjhdUI89RqMfx+GzRREK5mVYbtX8nFlKudXdaw5b5dSapeJSdtpBKwUastkqkLZ3l3+9Z80N0zFiVKXmZrDvYOqPp0lLnJbvk2eFODrpNc1UJ5cupvoZKDjRZUV53YFfGc5bl8ZeuoD+CborIeczdfcNj/Eii5LRXQQRjLzonpOH3f/nG/cYfzZWlDhnjdL/3hlSqG7tTX1/qDVS9WxgqUn5N2Fy2BnZwMsYJp8jS6t1WI9L+Abor0DeRPgzBit8azanWTAslwiUwzzVPJpZpFVgew=
