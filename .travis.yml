@@ -25,5 +25,4 @@ script:
   - yarn build:prod
 
 after_success:
-  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && firebase deploy --token={$FIREBASE_TOKEN} --project={$PRID} --non-interactive
-
+  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && firebase deploy --token={$FIREBASE_TOKEN} --project={$PRID}
