@@ -11,7 +11,7 @@ branches:
   only:
     - maser
 
-install:
+before_script:
 - yarn
 - cd functions && yarn && cd ..
 
