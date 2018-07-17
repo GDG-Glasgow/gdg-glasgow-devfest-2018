@@ -71,7 +71,7 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG Glasgow DevFest brings together the world class experts in Android, Web and Cloud technologies to Glasgow for 1 day of sessions, workshops and showcases."
+        "description": "GDG DevFest Glasgow brings together the world class experts in Android, Web and Cloud technologies to Glasgow for 1 day of sessions, workshops and showcases."
       }
     },
     "statisticsBlock": {
@@ -133,7 +133,7 @@
     "emailAddress": "Email Address",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about GDG Glasgow DevFest sent to your inbox.",
+    "formTitle": "Get the latest updates, insights and news about GDG DevFest Glasgow sent to your inbox.",
     "emailRequired": "Please enter a valid email address.",
     "subscribe": "Subscribe",
     "subscribed": "Subscribed",
@@ -175,7 +175,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='https://gdg-glasgow.com/' target='_blank'>GDG Lviv</a> is the proud organizer of DevFest Glasgow",
+        "description": "<a href='https://gdg-glasgow.com/' target='_blank'>GDG Glasgow</a> is the proud organizer of DevFest Glasgow",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
