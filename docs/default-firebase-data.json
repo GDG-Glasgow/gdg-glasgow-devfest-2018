@@ -1,5 +1,14 @@
 {
   "blog" : {
+    "call-for-speakers-open": {
+      "backgroundColor": "5a7785",
+      "brief": "Our submission form for speakers is officially open! Please send us your proposal today.",
+      "content": "GDG Glasgow is proud to announce that the submission form for speakers is open! We have created a short form on Sessionize and invite you to fill it out to get a chance to speak at our DevFest this November. \n\n We welcome any topics. We want speakers that are passionate, that can grab the attention of the audience right away and hold it until the end, and leave them wanting more. \n\n Please note: the call for speakers form closes on the 31st of October, 2018. <div layout horizontal center-justified> <a href=\"https://sessionize.com/gdg-glasgow-devfest-2018\" rel=\"noopener noreferrer\"><paper-button primary>Submit a proposal</paper-button>  \n </a></div> <a href=\"https://sessionize.com/\"><img width=\"234\" height=\"60\" src=\"https://sessionize.com/Assets/buttons/sessionize--button-234x60.png\" alt=\"Sessionize.com - smart way to manage call for papers, speaker and agenda\"></a>",
+      "image": "/images/posts/c4p-open.jpg",
+      "published": "2018-09-06",
+      "source": "",
+      "title": "Speaker form open!"
+    },
     "c4p" : {
       "backgroundColor" : "#3647a5",
       "brief" : "We are looking for speakers for GDG DevFest Glasgow",
@@ -12,7 +21,7 @@
     "dfua18-announced" : {
       "backgroundColor" : "#2196F3",
       "brief" : "GDG Glasgow has begun planning DevFest 2018!.",
-      "content" : "It is official. GDG DevFest Glasgow 2018 is in motion. We do not have any details yet but will update this page as well as our social media once we confirm everything. Follow us on [Facebook](https://www.facebook.com/gdgglasgow/) and join [Meetup](https://www.meetup.com/Glasgow-New-Technology-Meetup/) not to miss new speakers announcements and conference updates.",
+      "content" : "It is official. GDG DevFest Glasgow 2018 is in motion. We do not have any details yet but will update this page as well as our social media once we confirm everything. Follow us on [Facebook](https://www.facebook.com/gdgglasgow/) and join [Meetup](https://www.meetup.com/Glasgow-New-Technology-Meetup/) to keep up with announcements and conference updates.",
       "image" : "/images/posts/df18.jpg",
       "published" : "2018-07-16",
       "source" : "",
@@ -139,7 +148,7 @@
         "link" : "https://www.linkedin.com/in/adam-czyzewski-88b19312a/",
         "name" : "LinkedIn"
       } ],
-      "title" : "Speakers"
+      "title" : ""
     } ],
     "title" : "Core Team"
   } ],
