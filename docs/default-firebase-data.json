@@ -1,7 +1,16 @@
 {
   "blog" : {
+    "tickets-are-live": {
+      "backgroundColor": "#2196F3",
+      "brief": "Tickets are now live!",
+      "content": "Our ticket schedule is now live on Eventbrite! We are doing three ticket releases, and the first one will be on October 27th. Do not miss out!",
+      "image": "/images/posts/ticket.jpg",
+      "published": "2018-10-24",
+      "source": "",
+      "title": "Tickets are live!"
+    },
     "call-for-speakers-open": {
-      "backgroundColor": "5a7785",
+      "backgroundColor": "#5a7785",
       "brief": "Our submission form for speakers is officially open! Please send us your proposal today.",
       "content": "GDG Glasgow is proud to announce that the submission form for speakers is open! We have created a short form on Sessionize and invite you to fill it out to get a chance to speak at our DevFest this November. \n\n We welcome any topics. We want speakers that are passionate, that can grab the attention of the audience right away and hold it until the end, and leave them wanting more. \n\n Please note: the call for speakers form closes on the 31st of October, 2018. <div layout horizontal center-justified> <a href=\"https://sessionize.com/gdg-glasgow-devfest-2018\" rel=\"noopener noreferrer\"><paper-button primary>Submit a proposal</paper-button>  \n </a></div> <a href=\"https://sessionize.com/\"><img width=\"234\" height=\"60\" src=\"https://sessionize.com/Assets/buttons/sessionize--button-234x60.png\" alt=\"Sessionize.com - smart way to manage call for papers, speaker and agenda\"></a>",
       "image": "/images/posts/c4p-open.jpg",
@@ -153,7 +162,37 @@
     "title" : "Core Team"
   } ],
   "tickets" : [
-
+    {
+      "ends": "Nov 17",
+      "name": "Early Googlers",
+      "soldOut": false,
+      "starts": "Oct 27",
+      "url": "https://gdgdevfest2018.eventbrite.co.uk",
+      "price": 0,
+      "currency": "",
+      "info": "",
+      "available": true
+    }, {
+      "ends": "Nov 17",
+      "name": "On Time Googlers",
+      "soldOut": false,
+      "starts": "Nov 3",
+      "url": "https://gdgdevfest2018.eventbrite.co.uk",
+      "price": 0,
+      "currency": "",
+      "info": "",
+      "available": true
+    }, {
+      "ends": "Nov 17",
+      "name": "Late Googlers",
+      "soldOut": false,
+      "starts": "Nov 10",
+      "url": "https://gdgdevfest2018.eventbrite.co.uk",
+      "price": 0,
+      "currency": "",
+      "info": "",
+      "available": true
+    }
   ],
   "triggers" : {
     "images" : false
