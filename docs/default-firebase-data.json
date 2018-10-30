@@ -85,7 +85,149 @@
 
   },
   "speakers" : {
-
+    "swav_kulinski": {
+      "bio": "Swav is a Flutter GDE (Google Developer Expert) and the lead of Android Community of Practice at The App Business which he has grown from start. For the last two years he have been promoting Flutter within the business and outside with his clients. Swav shares all his knowledge from commercial and non commercial development in blog posts. He strongly believe that Flutter has the massive potential to become a mainstream mobile app platform and will make the developer community better as it is more affordable and is quite a pleasure to learn.",
+      "company": "The App Business",
+      "companyLogo": "/images/logos/tab.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/tab.png?alt=media&token=c58f608a-6c3a-413c-832a-c05a82ee5c78",
+      "country": "UK",
+      "featured": false,
+      "name": "Swav Kulinski",
+      "photo": "/images/people/Swav.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Swav.jpg?alt=media&token=f033e8fe-62c9-4cee-8dba-63f1ee7968aa",
+      "shortBio": "Swav is a Flutter GDE and is the lead of Android Community of Practice at The App Business.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/swavkulinski/",
+          "name": "LinkedIn"
+        }, {
+          "icon": "twitter",
+          "link": "https://twitter.com/robotoasterdev",
+          "name": "Twitter"
+        }, {
+          "icon": "website",
+          "link": "http://www.theappbusiness.com/",
+          "name": "Website"
+        }, {
+          "icon": "website",
+          "link": "https://medium.com/@swav.kulinski",
+          "name": "Blog"
+        }
+      ],
+      "order": 0,
+      "title": "Flutter GDE, Lead Android Developer at The App Business"
+    },
+    "doug_sillars": {
+      "bio": "Doug is a leading mobile performance developer advocate and evangelist. Doug has worked with thousands of developers around the world, helping them improve the speed, battery life and customer satisfaction of their mobile applications (both native and web). The author of O'Reilly's 'High Performance Android Apps,' he has spoken at conferences around the world on mobile performance.\n\nHe is currently freelancing, and traveling with his family of 6 (plus the dog!) as a digital nomad in Europe.",
+      "company": "Doug Sillars",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "",
+      "featured": false,
+      "name": "Doug Sillars",
+      "photo": "/images/people/Doug.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Doug.jpg?alt=media&token=0b276983-dc74-4f74-89dd-87f4f8708787",
+      "shortBio": "Doug is a leading mobile performance developer advocate and evangelist.",
+      "socials": [
+        {
+          "link": "https://dougsillars.com/",
+          "icon": "website",
+          "name": "Website"
+        }, {
+          "link": "https://www.linkedin.com/in/dougsillars/",
+          "icon": "linkedin",
+          "name": "LinkedIn"
+        }, {
+          "link": "https://twitter.com/dougsillars",
+          "icon": "twitter",
+          "name": "Twitter"
+        }
+      ],
+      "order": 1,
+      "title": "Freelance Performance Expert"
+    },
+    "amanda_cavallaro": {
+      "bio": "Amanda Cavallaro is a software developer and is passionate about Cloud technologies, Human Computer Interactions, and conversational apps. She works at resolver.co.uk and is a Women Techmakers Lead and Community Organiser at Google Developer Group Cloud London. You can speak to her in Portuguese, English, Italian and a little of Japanese.",
+      "company": "Resolver",
+      "companyLogo": "/images/logos/resolver.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/resolver.png?alt=media&token=925876aa-888f-4387-80ec-f5ac631f4380",
+      "country": "UK",
+      "featured": false,
+      "name": "Amanda Cavallaro",
+      "photo": "/images/people/Amanda.jpeg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Amanda.jpeg?alt=media&token=c2c4f079-05fd-4c56-8888-d655195cad1a",
+      "shortBio": "Amanda Cavallaro is a software developer, passionate about Cloud technologies, Human Computer Interactions, and conversational apps",
+      "socials": [
+        {
+          "link": "http://www.resolver.co.uk/",
+          "icon": "website",
+          "name": "Website"
+        }, {
+          "link": "http://amanda.ml/",
+          "icon": "website",
+          "name": "Blog"
+        }, {
+          "link": "https://www.linkedin.com/in/amanda-cavallaro-80a36241/",
+          "icon": "linkedin",
+          "name": "LinkedIn"
+        }, {
+          "link": "http://www.twitter.com/chibichibibr",
+          "icon": "twitter",
+          "name": "Twitter"
+        }
+      ],
+      "order": 2,
+      "title": "Co-Organizer GDG London"
+    },
+    "martin_hawksey": {
+      "bio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services. In these roles, he has supported staff in the exploration and adoption of innovative approaches to teaching and learning. Martin was also an early adopter of Google Apps Script and this tool regularly features in the solutions he publishes and often integrates with other Google products, such as Google Maps, Google Charts and Google Analytics.\n\nAs Chief Innovation, Technology and Community Officer at the Association for Learning Technology (ALT) his work continues to focus on how Google services can be used to support the development of ALT's member community.",
+      "company": "Association for Learning Technology",
+      "companyLogo": "/images/alt.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/alt.png?alt=media&token=4537f07e-d5ef-44d5-bbbf-6e8638236201",
+      "country": "",
+      "featured": false,
+      "name": "Martin Hawksey",
+      "photo": "/images/Martin.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Martin.jpg?alt=media&token=bcd4dc31-cd39-461e-8e32-8f997c5c40aa",
+      "shortBio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services",
+      "socials": [
+        {
+          "link": "https://alt.ac.uk/",
+          "icon": "website",
+          "name": "Website"
+        }, {
+          "link": "https://mashe.hawksey.info/",
+          "icon": "website",
+          "name": "Blog"
+        }, {
+          "link": "https://www.linkedin.com/in/mhawksey/",
+          "icon": "linkedin",
+          "name": "LinkedIn"
+        }, {
+          "link": "https://twitter.com/mhawksey",
+          "icon": "twitter",
+          "name": "Twitter"
+        }
+      ],
+      "order": 3,
+      "title": "GDE Google Apps Script and Chief Innovation, Technology and Community Officer at the Association for Learning Technology"
+    },
+    "jimmy_huguet": {
+      "bio": "Jimmy started his code journey during high school. He learned C++ on his free time and oriented his career towards programming. He worked with the Qt framework for many years in different companies before joining OBASHI where he learned golang.",
+      "company": "OBASHI",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "",
+      "featured": false,
+      "name": "Jimmy Huguet",
+      "photo": "/images/people/Jimmy.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Jimmy.jpg?alt=media&token=dc5f3c89-5dd6-4c08-83bc-d0c41b505cb0",
+      "shortBio": "Jimmy is one of the main software engineers at OBASHI.",
+      "socials": [],
+      "order": 4,
+      "title": "Software engineer at OBASHI"
+    }
   },
   "team" : [ {
     "members" : [ {
@@ -165,7 +307,7 @@
     {
       "ends": "Nov 17",
       "name": "Early Googlers",
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Oct 27",
       "url": "https://gdgdevfest2018.eventbrite.co.uk",
       "price": 0,
