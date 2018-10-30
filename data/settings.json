@@ -86,7 +86,7 @@
     },
     "faq": {
       "title": "FAQs",
-      "metaDescription": "Find you answer right here!",
+      "metaDescription": "Find your answer right here!",
       "background": {
         "color": "#fff"
       },
@@ -94,7 +94,7 @@
     },
     "cod": {
       "title": "Code Of Conduct",
-      "metaDescription": "Lear more about our expectations for all those who participate in our community",
+      "metaDescription": "Learn more about our expectations for all those who participate in our community",
       "background": {
         "color": "#fff"
       },
@@ -103,20 +103,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "",
+    "name": "Kelvin Gallery",
     "city": "Glasgow",
     "short": "Glasgow, Scotland",
-    "address": "",
+    "address": "Gilbert Scott Building, University of Glasgow, Glasgow G12 8QQ",
     "pointer": {
-      "latitude": "",
-      "longitude": "",
-      "zoom": 5
+      "latitude": 55.872044,
+      "longitude": -4.288724,
+      "zoom": 17
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 55.872044,
+      "longitude": -4.288724
     },
-    "description": ""
+    "description": "The Kelvin Gallery stunningly mixes contemporary and traditional design and creates inspiration for all those that walk through its doors."
   },
   "mediaQueries": {
     "xs": {
