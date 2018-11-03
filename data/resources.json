@@ -71,7 +71,7 @@
     "title": "What you need to know",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Glasgow brings together the world class experts in Android, Web and Cloud technologies to Glasgow for 1 day of sessions, workshops and showcases."
+        "description": "GDG DevFest Glasgow brings together world class experts in Android, Web and Cloud technologies to Glasgow for 1 day of sessions, workshops and showcases."
       }
     },
     "statisticsBlock": {
@@ -85,7 +85,7 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": ""
+        "number": "5"
       }
     }
   },
