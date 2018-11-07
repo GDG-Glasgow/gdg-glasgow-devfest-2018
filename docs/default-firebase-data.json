@@ -77,12 +77,65 @@
       "url" : "https://github.com/gdg-x"
     } ],
     "title" : "General Partner"
+  }, {
+    "logos": [ {
+      "logoUrl": "../images/logos/image_scotland.jpg",
+      "name": "Image Scotland",
+      "url": "https://www.imagescotland.com/"
+    }],
+    "title": "T-Shirt Partner"
+  }, {
+    "logos": [ {
+      "logoUrl": "../images/logos/stickermule.png",
+      "name": "Sticker Mule",
+      "url": "https://www.stickermule.com"
+    }],
+    "title": "Sticker Partner"
   } ],
   "schedule" : {
 
   },
   "sessions" : {
-
+    "0": {
+      "complexity": "Beginner",
+      "description": "Google Apps Script is a serverless JavaScript runtime for G Suite automation, extension, and integration. Since its release in 2008, Apps Script has continued to evolve and it is used to support the development and extension of a growing number of Google products including G Suite and Gmail add-ons, data connectors for Data Studio, and bots for Google Hangouts Chat. Apps Script's integration with other Google services makes it easy to pull and push data from different sources and users can also make external HTTP requests to 3rd party APIs. In this talk, Martin Hawksey will give an overview of Google Apps Script features highlighting opportunities for developers to automate, extend and integrate.",
+      "language": "English",
+      "speakers": [ "martin_hawksey" ],
+      "tags": [ "Google Cloud Platform", "Web", "Apps Script" ],
+      "title": "All about Apps Script"
+    },
+    "1": {
+      "complexity": "Beginner",
+      "description": "What is Flutter and why it is disruptive to mobile development? Flutter came with a long list of very unique traits and capabilities. What do they really mean and how they will disrupt current mobile app development? How it can help small companies to get their first product out of the door?",
+      "language": "English",
+      "speakers": [ "swav_kulinski" ],
+      "tags": [ "Flutter", "Web" ],
+      "title": "Flutter - Disrupting the Mobile"
+    },
+    "2": {
+      "complexity": "Beginner",
+      "description": "Linguistic relativity is an hypothesis stating that the language we speak determine or affect the way we think. Programming languages have been theorised to be acting the same way on developers' brain. This talks will try to explore the interesting features of golang and how it affect the way developers think about code and software architecture.",
+      "language": "English",
+      "speakers": [ "jimmy_huguet" ],
+      "tags": [ "Golang" ],
+      "title": "Golang Linguistic Relativity"
+    },
+    "3": {
+      "complexity": "Intermediate",
+      "description": "You can use Dialogflow and Google Cloud Platform for many reasons be it creating interactions to be used within your own communities, a conversational app for families, companies, sports, or to help workflows for both customers and businesses. Sometimes it can be a bad thing to talk to an automated conversation, if it is not well-designed.\n\nThese pieces of technology can also help you escalate the conversation to a real human, as it can help you detect when human intervention is needed by using the ability of sentiment analysis, leveraging both sides of AI and Machine Learning in one computer-human interaction platform!",
+      "language": "English",
+      "speakers": [ "amanda_cavallaro" ],
+      "tags": [ "Machine Learning", "Google Cloud Platform" ],
+      "title": "Google Assistant: Interactions and Sentiments aiding Customers and Businesses"
+    },
+    "4": {
+      "complexity": "Beginner",
+      "description": "Adding video to your website or mobile app is a great way to increase engagement and to highlight your brand. However, video that does not play smoothly causes frustration to users. With variable network conditions and low powered devices, how can you ensure that your video will look stream perfectly to all of your users? In this talk, we will walk through the mechanics of delivering video and apply best practices to deliver video quickly, efficiently and without stalling.",
+      "language": "English",
+      "speakers": [ "doug_sillars" ],
+      "tags": [ "Web" ],
+      "title": "It's Time to Stop Stalling: Delivering Fast Video without the Buffering"
+    }
   },
   "speakers" : {
     "swav_kulinski": {
@@ -317,7 +370,7 @@
     }, {
       "ends": "Nov 17",
       "name": "On Time Googlers",
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Nov 3",
       "url": "https://gdgdevfest2018.eventbrite.co.uk",
       "price": 0,
