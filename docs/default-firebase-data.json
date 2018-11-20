@@ -1,5 +1,14 @@
 {
   "blog" : {
+    "another-successful-devfest": {
+      "backgroundColor": "#3647a5",
+      "brief": "Thank you for making DevFest 2018 a success!",
+      "content": "Thank you for making our second DevFest a huge success. To the speakers and audience, you are all wonderful. Thank you for sharing in this moment with us. We hope to see you again.",
+      "image": "/images/posts/another.jpg",
+      "published": "2018-11-20",
+      "source": "",
+      "title": "Another successful DevFest!"
+    },
     "tickets-are-live": {
       "backgroundColor": "#2196F3",
       "brief": "Tickets are now live!",
@@ -93,7 +102,160 @@
     "title": "Sticker Partner"
   } ],
   "schedule" : {
-
+    "2018-11-17": {
+      "timeslots": [
+        {
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "sessions": [{
+            "items": [7]
+          }]
+        },
+        {
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "sessions": [{
+            "items": [9]
+          }]
+        },
+        {
+          "startTime": "10:45",
+          "endTime": "11:40",
+          "sessions": [{
+            "items": [1]
+          }]
+        },
+        {
+          "startTime": "11:40",
+          "endTime": "11:45",
+          "sessions": [{
+            "items": [11]
+          }]
+        },
+        {
+          "startTime": "11:45",
+          "endTime": "11:50",
+          "sessions": [{
+            "items": [6]
+          }]
+        },
+        {
+          "startTime": "11:50",
+          "endTime": "12:45",
+          "sessions": [{
+            "items": [0]
+          }]
+        },
+        {
+          "startTime": "12:45",
+          "endTime": "12:50",
+          "sessions": [{
+            "items": [11]
+          }]
+        },
+        {
+          "startTime": "12:50",
+          "endTime": "12:55",
+          "sessions": [{
+            "items": [6]
+          }]
+        },
+        {
+          "startTime": "12:55",
+          "endTime": "13:35",
+          "sessions": [{
+            "items": [8]
+          }]
+        },
+        {
+          "startTime": "13:35",
+          "endTime": "14:25",
+          "sessions": [{
+            "items": [4]
+          }]
+        },
+        {
+          "startTime": "14:25",
+          "endTime": "14:30",
+          "sessions": [{
+            "items": [11]
+          }]
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "14:35",
+          "sessions": [{
+            "items": [6]
+          }]
+        },
+        {
+          "startTime": "14:35",
+          "endTime": "15:25",
+          "sessions": [{
+            "items": [3]
+          }]
+        },
+        {
+          "startTime": "15:25",
+          "endTime": "15:30",
+          "sessions": [{
+            "items": [11]
+          }]
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "15:35",
+          "sessions": [{
+            "items": [6]
+          }]
+        },
+        {
+          "startTime": "15:35",
+          "endTime": "16:25",
+          "sessions": [{
+            "items": [5]
+          }]
+        },
+        {
+          "startTime": "16:25",
+          "endTime": "16:30",
+          "sessions": [{
+            "items": [11]
+          }]
+        },
+        {
+          "startTime": "16:30",
+          "endTime": "16:40",
+          "sessions": [{
+            "items": [6]
+          }]
+        },
+        {
+          "startTime": "16:40",
+          "endTime": "17:30",
+          "sessions": [{
+            "items": [2]
+          }]
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "17:40",
+          "sessions": [{
+            "items": [11]
+          }]
+        },
+        {
+          "startTime": "17:40",
+          "endTime": "19:00",
+          "sessions": [{
+            "items": [10]
+          }]
+        }
+      ],
+      "tracks": [ {
+        "title": "Kelvin Gallery"
+      }]
+    }
   },
   "sessions" : {
     "0": {
@@ -114,11 +276,11 @@
     },
     "2": {
       "complexity": "Beginner",
-      "description": "Linguistic relativity is an hypothesis stating that the language we speak determine or affect the way we think. Programming languages have been theorised to be acting the same way on developers' brain. This talks will try to explore the interesting features of golang and how it affect the way developers think about code and software architecture.",
+      "description": "Suppose you just wrote a web application. It's running on a server with a MySQL db behind it. You can point your web browser to it. That means you're done, right? Right?",
       "language": "English",
-      "speakers": [ "jimmy_huguet" ],
-      "tags": [ "Golang" ],
-      "title": "Golang Linguistic Relativity"
+      "speakers": [ "natalia_tokarova" ],
+      "tags": [ "SRE", "Google" ],
+      "title": "SRE - Systems at Scale"
     },
     "3": {
       "complexity": "Intermediate",
@@ -135,6 +297,50 @@
       "speakers": [ "doug_sillars" ],
       "tags": [ "Web" ],
       "title": "It's Time to Stop Stalling: Delivering Fast Video without the Buffering"
+    },
+    "5": {
+      "complexity": "Beginner",
+      "description": "This will be a quick overview of reinforcement learning algorithms and how they interact with function approximators. It will also be explained how to apply them to playing games and moving robots.",
+      "language": "English",
+      "speakers": [ "mel_vecerik" ],
+      "tags": [ "DeepMind", "Reinforcement Learning" ],
+      "title": "Introduction to Reinforcement Learning"
+    },
+    "6": {
+      "description": "A small break to stretch out the legs and talk with others",
+      "icon": "",
+      "image": "",
+      "title": "Small break"
+    },
+    "7": {
+      "description": "Grab a bite to eat while we check you in!",
+      "icon": "",
+      "image": "",
+      "title": "Check in and have breakfast"
+    },
+    "8": {
+      "description": "A lot of pizza and drinks for everybody",
+      "icon": "",
+      "image": "",
+      "title": "Lunch"
+    },
+    "9": {
+      "description": "Allow us to introduce ourselves and our partner societies.",
+      "icon": "",
+      "image": "",
+      "title": "Introductions"
+    },
+    "10": {
+      "description": "It's the end! :( Chat away with people and get something to drink.",
+      "icon": "",
+      "image": "",
+      "title": "Networking Session"
+    },
+    "11": {
+      "description": "Ask questions about the talk",
+      "icon": "",
+      "image": "",
+      "title": "Questions"
     }
   },
   "speakers" : {
@@ -241,7 +447,7 @@
       "country": "",
       "featured": false,
       "name": "Martin Hawksey",
-      "photo": "/images/Martin.jpg",
+      "photo": "/images/people/Martin.jpg",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Martin.jpg?alt=media&token=bcd4dc31-cd39-461e-8e32-8f997c5c40aa",
       "shortBio": "Martin has held advisory roles within the UK educational technology sector for a number of government-funded services",
       "socials": [
@@ -266,20 +472,35 @@
       "order": 3,
       "title": "GDE Google Apps Script and Chief Innovation, Technology and Community Officer at the Association for Learning Technology"
     },
-    "jimmy_huguet": {
-      "bio": "Jimmy started his code journey during high school. He learned C++ on his free time and oriented his career towards programming. He worked with the Qt framework for many years in different companies before joining OBASHI where he learned golang.",
-      "company": "OBASHI",
-      "companyLogo": "",
-      "companyLogoUrl": "",
+    "natalia_tokarova": {
+      "bio": "Natalia Tokarova is a Site Reliability Engineer at Google.",
+      "company": "Google",
+      "companyLogo": "/images/logos/google.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/google.svg?alt=media&token=839e0a68-3c30-4eab-af3c-f2d1e1628fa1",
       "country": "",
       "featured": false,
-      "name": "Jimmy Huguet",
-      "photo": "/images/people/Jimmy.jpg",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/Jimmy.jpg?alt=media&token=dc5f3c89-5dd6-4c08-83bc-d0c41b505cb0",
-      "shortBio": "Jimmy is one of the main software engineers at OBASHI.",
+      "name": "Natalia Tokarova",
+      "photo": "",
+      "photoUrl": "",
+      "shortBio": "Site Reliability Engineer at Google",
       "socials": [],
       "order": 4,
-      "title": "Software engineer at OBASHI"
+      "title": "SRE at Google"
+    },
+    "mel_vecerik" : {
+      "bio": "Mel Vecerik is a research engineer at DeepMind.",
+      "company": "",
+      "companyLogo": "/images/logos/deepmind.png",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/dev2018-65075.appspot.com/o/deepmind.png?alt=media&token=7a6ccc84-5807-4123-87cd-6685822fd9b3",
+      "country": "",
+      "featured": false,
+      "name": "Mel Vecerik",
+      "photo": "",
+      "photoUrl": "",
+      "shortBio": "Research Engineer at DeepMind",
+      "socials": [],
+      "order": 5,
+      "title": "Research Engineer at Deepmind"
     }
   },
   "team" : [ {
@@ -380,7 +601,7 @@
     }, {
       "ends": "Nov 17",
       "name": "Late Googlers",
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Nov 10",
       "url": "https://gdgdevfest2018.eventbrite.co.uk",
       "price": 0,
